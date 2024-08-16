@@ -10,7 +10,7 @@ setup(
     packages=find_packages(include=["fastembed"]),
     install_requires=[
         "onnx==1.15.0",
-        "onnxruntime==1.17.0",
+        "onnxruntime==1.16.0",
         "tqdm==4.66",
         "requests==2.31",
         "tokenizers>=0.15,<1.0",
