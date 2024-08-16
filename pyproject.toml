@@ -24,11 +24,6 @@ numpy = [
     { version = ">=1.26, <2", python = ">=3.12" }
 ]
 pillow = "^10.3.0"
-snowballstemmer = "^2.2.0"
-PyStemmer = { version = "^2.2.0", optional = true }
-
-[tool.poetry.extras]
-pystemmer = ["PyStemmer"]
 mmh3 = "^4.0"
 
 [tool.poetry.group.dev.dependencies]
