@@ -12,7 +12,7 @@ setup(
         "onnx==1.15.0",
         "onnxruntime==1.16.0",
         "tqdm==4.66",
-        "requests==2.31",
+        "requests>=2.31,<3.0",
         "tokenizers>=0.15,<1.0",
         "huggingface-hub>=0.20,<1.0",
         "loguru==0.7.2",
