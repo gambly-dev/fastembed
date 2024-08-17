@@ -20,5 +20,6 @@ setup(
         "numpy>=1.26,<2; python_version>='3.12'",
         "pillow==10.3.0",
         "mmh3==4.0",
+        "snowballstemmer"
     ],
 )
