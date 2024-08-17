@@ -7,7 +7,7 @@ setup(
     author="Qdrant Team",
     author_email="info@qdrant.tech",
     license="Apache License",
-    packages=find_packages(include=["fastembed"]),
+    packages=find_packages(include=["fastembed", "fastembed.*"]),
     install_requires=[
         "onnx==1.15.0",
         "onnxruntime==1.16.0",
